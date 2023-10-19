@@ -39,7 +39,7 @@
         </div>
 
         <div class="my-10 text-center">
-          <pBtn class="mx-auto">Перейти в магазин</pBtn>
+          <pBtn href="#" class="mx-auto">Перейти в магазин</pBtn>
         </div>
 
       </div>
@@ -68,10 +68,3 @@
 
   </main>
 </template>
-
-<script>
-export default {
-  name: 'HomeView',
-  components: {}
-}
-</script>

@@ -21,8 +21,14 @@
         </ul>
 
         <div class="contacts inline-flex justify-self-end gap-8">
-          <a class="inline-block font-bold py-2" href="tel:+7 495-147-25-36">+7 (495) 147 25 36</a>
-          <a class="inline-block font-bold py-2" href="mailto:paritet@mail.com">paritet@mail.com</a>
+          <a
+          class="inline-block font-bold py-2"
+          href="tel:+7 495-147-25-36"
+          ><PhoneIcon class="icon"/> +7 (495) 147 25 36</a>
+          <a
+          class="inline-block font-bold py-2"
+          href="mailto:paritet@mail.com"
+          ><EnvelopeIcon class="icon"/> paritet@mail.com</a>
         </div>
 
         <nav class="flex justify-between text-slate-600">
@@ -41,7 +47,17 @@
 </template>
 
 <script>
+import {
+  EnvelopeIcon,
+  PhoneIcon
+} from '@heroicons/vue/24/solid'
+
 export default {
+  components: {
+    EnvelopeIcon,
+    PhoneIcon,
+  },
+
   data() {
     return {
       nav: [
