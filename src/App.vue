@@ -1,30 +1,17 @@
 <template>
-  <nav class="py-5">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <TopNav/>
   <router-view/>
+  <FooterBlock/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import TopNav from '@/components/base/TopNav.vue';
+import FooterBlock from '@/components/base/FooterBlock.vue';
+
+export default {
+  components: {
+    TopNav,
+    FooterBlock,
+  },
 }
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+</script>
