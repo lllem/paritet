@@ -1,7 +1,13 @@
 <template>
+
   <TopNav/>
-  <router-view/>
+
+  <main>
+    <router-view/>
+  </main>
+
   <FooterBlock/>
+
 </template>
 
 <script>
@@ -15,3 +21,15 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+#app {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100%;
+
+  main {
+    flex-grow: 1;
+  }
+}
+</style>

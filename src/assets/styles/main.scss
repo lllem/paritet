@@ -1,0 +1,42 @@
+@import 'tokens';
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('@/assets/fonts/SegoeUIVF.ttf');
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.25;
+}
+
+.bg-dark {
+  background-color: #1b324a;
+}
+
+.t-muted-dark {
+  color: $faded;
+}
+
+.t-dark {
+  color: #1b324a;
+}
+
+// borders
+
+.blue-border-top {
+  border-top: 1px solid $blue;
+
+  &-xl {
+    border-top: 4px solid $blue;
+  }
+}
+
+.blue-border-bottom {
+  border-bottom: 1px solid $blue;
+
+  &-xl {
+    border-bottom: 4px solid $blue;
+  }
+}
