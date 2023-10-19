@@ -2,10 +2,11 @@
   <main class="home">
 
     <section class="bg-dark text-white py-5">
-      <div class="container max-w-screen-xl mx-auto px-4 grid grid-cols-2 py-5 items-center">
+      <div class="container max-w-screen-xl mx-auto px-4 grid lg:grid-cols-2 gap-6 py-5 items-center">
 
-        <div class="py-4">
-          <img src="/assets/img/pages-illustrations/main/logo_illustration.svg" alt="">
+        <div class="logo_illustration py-4--">
+          <img class="logo_illustration__logo py-4" src="/assets/img/pages-illustrations/main/logo_illustration__logo.svg" alt="">
+          <img class="logo_illustration__lines py-4" src="/assets/img/pages-illustrations/main/logo_illustration__lines.svg" alt="">
         </div>
 
         <div class="py-4">
@@ -19,23 +20,23 @@
     </section>
 
     <section class="py-5">
-
       <div class="container max-w-screen-xl mx-auto px-4 py-5">
 
         <titleSpark h="2" class="text-4xl mb-4">О нас</titleSpark>
 
-        <div class="grid grid-cols-12 gap-12">
-          <div class="col-span-4">
-            <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        <div class="grid grid-cols-12 md:gap-6 lg:gap-12">
 
+          <div class="col-span-12 md:col-span-5 lg:col-span-4">
+            <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
             <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 
             <div class="map aspect-[4/3] bg-slate-300 w-full mt-9"></div>
           </div>
 
-          <div class="col-span-8 py-4">
+          <div class="col-span-12 md:col-span-7 lg:col-span-8 py-4">
             <img src="/assets/img/pages-illustrations/main/image_2023-10-19_12-29-56.png" alt="">
           </div>
+
         </div>
 
         <div class="my-10 text-center">
@@ -51,16 +52,20 @@
 
         <titleSpark h="2" class="text-4xl uppercase mb-6">Новости компании</titleSpark>
 
-        <div class="grid grid-cols-12 gap-12">
-          <div class="col-span-4">
-            <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        <div class="grid grid-cols-12 gap-x-12 gap-y-8">
+
+          <div class="col-span-12 md:col-span-4">
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
           </div>
-          <div class="col-span-4">
-            <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+          <div class="col-span-12 md:col-span-4">
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
           </div>
-          <div class="col-span-4">
-            <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+          <div class="col-span-12 md:col-span-4">
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
           </div>
+
         </div>
 
       </div>
@@ -68,3 +73,18 @@
 
   </main>
 </template>
+
+<style lang="scss">
+.logo_illustration {
+  position: relative;
+
+  .logo_illustration__logo {
+    position: absolute;
+    top: 18%;
+    bottom: 18%;
+    height: 64%;
+    width: 100%;
+  }
+  .logo_illustration__lines {}
+}
+</style>
