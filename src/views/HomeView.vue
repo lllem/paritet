@@ -9,7 +9,7 @@
         </div>
 
         <div class="py-4">
-          <h1 class="font-bold text-2xl mb-9">ПОСТАВКА РАДИОЭЛЕКТРОННЫХ КОМПОНЕНТОВ И&nbsp;ОБОРУДОВАНИЯ</h1>
+          <titleSpark h="1" white class="text-2xl mb-4">ПОСТАВКА РАДИОЭЛЕКТРОННЫХ КОМПОНЕНТОВ И&nbsp;ОБОРУДОВАНИЯ</titleSpark>
 
           <p class="mb-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
@@ -22,7 +22,7 @@
 
       <div class="container max-w-screen-xl mx-auto px-4 py-5">
 
-        <h2 class="font-bold t-dark text-4xl mb-4">О нас</h2>
+        <titleSpark h="2" class="text-4xl mb-4">О нас</titleSpark>
 
         <div class="grid grid-cols-12 gap-12">
           <div class="col-span-4">
@@ -49,7 +49,7 @@
 
       <div class="container max-w-screen-xl mx-auto px-4 py-5">
 
-        <h2 class="font-bold t-dark text-4xl mb-4 uppercase mb-6">Новости компании</h2>
+        <titleSpark h="2" class="text-4xl uppercase mb-6">Новости компании</titleSpark>
 
         <div class="grid grid-cols-12 gap-12">
           <div class="col-span-4">
