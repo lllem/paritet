@@ -46,33 +46,20 @@
       </div>
     </section>
 
-    <section class="py-5 bg-slate-100 blue-border-top">
-
-      <div class="container max-w-screen-xl mx-auto px-4 py-5">
-
-        <titleSpark h="2" class="text-4xl uppercase mb-6">Новости компании</titleSpark>
-
-        <div class="grid grid-cols-12 gap-x-12 gap-y-8">
-
-          <div class="col-span-12 md:col-span-4">
-            <p class="text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-          </div>
-
-          <div class="col-span-12 md:col-span-4">
-            <p class="text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-          </div>
-
-          <div class="col-span-12 md:col-span-4">
-            <p class="text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
+    <NewsBlock/>
 
   </main>
 </template>
+
+<script>
+import NewsBlock from '@/components/blocks/NewsBlock.vue'
+
+export default {
+  components: {
+    NewsBlock,
+  },
+}
+</script>
 
 <style lang="scss">
 .logo_illustration {
