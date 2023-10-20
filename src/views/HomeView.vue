@@ -2,7 +2,7 @@
   <main class="home">
 
     <section class="bg-dark text-white py-5">
-      <div class="container max-w-screen-xl mx-auto px-4 grid lg:grid-cols-2 gap-6 py-5 items-center">
+      <div class="container max-w-screen-xl mx-auto px-4 grid lg:grid-cols-2 gap-x-6 py-5 items-center">
 
         <div class="logo_illustration py-4--">
           <img class="logo_illustration__logo py-4" src="/assets/img/pages-illustrations/main/logo_illustration__logo.svg" alt="">

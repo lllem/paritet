@@ -9,6 +9,7 @@ html, body {
   height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.25;
+  color: #1b324a;
 }
 
 .bg-dark {
@@ -19,8 +20,10 @@ html, body {
   color: $faded;
 }
 
+
+
 .t-dark {
-  color: #1b324a;
+  color: $t-dark;
 }
 
 // borders

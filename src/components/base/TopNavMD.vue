@@ -1,14 +1,13 @@
 <template>
   <header class="top-nav">
-    <div class="
-    container max-w-screen-xl mx-auto px-4 pb-9 pt-6 grid grid-cols-12 items-center gap-y-3
-    grid-rows-2 md:grid-rows-3"
+    <div class="container max-w-screen-xl mx-auto px-4 pb-9 pt-6 grid
+    grid-cols-12 grid-rows-1--
+    grid-rows-3 items-center gap-y-3"
     >
 
-      <div class="
-      top-nav__right col-span-9 md:col-span-4
-      md:row-span-2 lg:row-span-3
-      ">
+      <div class="top-nav__right
+      col-span-12 sm:col-span-5 row-span-1 md:row-span-2 md:row-span-3"
+      >
         <router-link
         to="/"
         title="ПАРИТЕТ"
@@ -18,17 +17,23 @@
         </router-link>
       </div>
 
-      <ul class="subnav hidden md:inline-flex justify-self-end text-slate-400 gap-2 col-span-8">
+      <ul class="
+      subnav hidden md:inline-flex justify-self-end
+      text-slate-400
+      gap-2
+      col-span-7
+
+      ">
         <li><a href="#">Поддержка</a></li> |
         <li><a href="#">FAQ</a></li> |
         <li><a href="#">Карта сайта</a></li> |
         <li><a href="#">Помощь</a></li>
       </ul>
 
-      <div class="contacts inline-flex md:justify-self-end gap-x-8 gap-y-3
-      col-span-9 md:col-span-8
-      flex-col md:flex-row
-      ">
+      <div class="contacts inline-flex gap-x-8 gap-y-2
+      justify-self-end col-span-12 sm:col-span-7
+      flex-row sm:flex-col md:flex-row row-span-1 md:row-span-2 lg:row-span-1"
+      >
         <a
         class="inline-block font-bold whitespace-nowrap"
         href="tel:+7 495-147-25-36"
@@ -39,7 +44,7 @@
         ><EnvelopeIcon class="icon"/> paritet@mail.com</a>
       </div>
 
-      <nav class="hidden md:flex justify-between text-slate-600 col-span-12 lg:col-span-8 gap-x-8">
+      <nav class="md:flex justify-between text-slate-600 col-span-12 lg:col-span-7 gap-x-4 hidden">
         <router-link
         v-for="link in nav"
         :to="link.link"
@@ -50,13 +55,6 @@
       </nav>
 
     </div>
-
-    <button
-    @click="openSidebar"
-    class="menu-toggler text-2xl col-span-3 md:hidden row-span-2"
-    >
-      <i></i>
-    </button>
   </header>
 </template>
 
@@ -98,12 +96,6 @@ export default {
       ],
     }
   },
-
-  methods: {
-    openSidebar() {
-      alert('open')
-    }
-  },
 }
 </script>
 
@@ -114,6 +106,7 @@ export default {
   border-bottom: 1px solid $blue;
 
   .top-nav__logo {
+    // max-width: 25rem;
     max-width: 16rem;
     width: 100%;
     display: inline-block;
@@ -127,39 +120,5 @@ export default {
     text-decoration: underline;
     font-weight: 600;
   }
-
-  .menu-toggler {
-    position: fixed;
-    top: 1.5rem;
-    right: 1rem;
-    width: 2rem;
-    height: 2rem;
-
-    &::before,
-    &::after {
-      content: '';
-    }
-
-    &::before {
-      transform: translateY(-0.7rem);
-    }
-
-    &::after {
-      transform: translateY(0.7rem);
-    }
-
-    &::before,
-    &::after,
-    i {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      border-top: 2px solid $t-dark;
-      border-bottom: 2px solid $t-dark;
-      border-radius: 4px;
-    }
-  }
 }
-
 </style>
