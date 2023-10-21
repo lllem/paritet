@@ -24,7 +24,7 @@ const routes = [
     meta: {
       title: 'Поставки РЭК',
     },
-    component: () => import('../views/AboutView.vue')
+    component: () => import('../views/RecSuppliesView.vue')
   },
   {
     path: '/certificates',
