@@ -16,7 +16,7 @@ const routes = [
     meta: {
       title: 'Поставки оборудования',
     },
-    component: () => import('../views/AboutView.vue')
+    component: () => import('../views/EquipmentSuppliesView.vue')
   },
   {
     path: '/rec-supplies',

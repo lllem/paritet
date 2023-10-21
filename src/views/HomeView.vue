@@ -4,7 +4,7 @@
     <section class="bg-dark text-white py-5">
       <div class="container max-w-screen-xl mx-auto px-4 grid lg:grid-cols-2 gap-x-6 py-5 items-center">
 
-        <div class="logo_illustration py-4--">
+        <div class="logo_illustration">
           <img class="logo_illustration__logo py-4" src="/assets/img/pages-illustrations/main/logo_illustration__logo.svg" alt="">
           <img class="logo_illustration__lines py-4" src="/assets/img/pages-illustrations/main/logo_illustration__lines.svg" alt="">
         </div>
@@ -34,7 +34,7 @@
           </div>
 
           <div class="col-span-12 md:col-span-7 lg:col-span-8 py-4">
-            <img src="/assets/img/pages-illustrations/main/image_2023-10-19_12-29-56.png" alt="">
+            <img src="/assets/img/pages-illustrations/main/image_2023-10-19_12-29-56.webp" alt="">
           </div>
 
         </div>
