@@ -32,11 +32,11 @@ const routes = [
     meta: {
       title: 'Сертификаты',
     },
-    component: () => import('../views/AboutView.vue')
+    component: () => import('../views/CertificatesView.vue')
   },
   {
     path: '/about',
-    name: 'about',
+    name: 'About',
     meta: {
       title: 'О нас',
     },
