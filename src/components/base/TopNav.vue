@@ -50,14 +50,10 @@
       </nav>
 
     </div>
-
-    <button
-    @click="openSidebar"
-    class="menu-toggler text-2xl col-span-3 md:hidden row-span-2"
-    >
-      <i></i>
-    </button>
   </header>
+
+  <MobileMenu/>
+
 </template>
 
 <script>
@@ -65,11 +61,13 @@ import {
   EnvelopeIcon,
   PhoneIcon
 } from '@heroicons/vue/24/solid'
+import MobileMenu from '@/components/base/MobileMenu.vue'
 
 export default {
   components: {
     EnvelopeIcon,
     PhoneIcon,
+    MobileMenu,
   },
 
   data() {
@@ -127,39 +125,5 @@ export default {
     text-decoration: underline;
     font-weight: 600;
   }
-
-  .menu-toggler {
-    position: fixed;
-    top: 1.5rem;
-    right: 1rem;
-    width: 2rem;
-    height: 2rem;
-
-    &::before,
-    &::after {
-      content: '';
-    }
-
-    &::before {
-      transform: translateY(-0.7rem);
-    }
-
-    &::after {
-      transform: translateY(0.7rem);
-    }
-
-    &::before,
-    &::after,
-    i {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      border-top: 2px solid $t-dark;
-      border-bottom: 2px solid $t-dark;
-      border-radius: 4px;
-    }
-  }
 }
-
 </style>
