@@ -92,7 +92,7 @@
         </div>
 
         <div class="col-span-12 md:col-span-12 lg:col-span-7">
-          <div class="map aspect-square md:aspect-video lg:aspect-video xl:aspect-[21/9] bg-slate-300 w-full block">Карта</div>
+          <div class="map aspect-square md:aspect-video lg:aspect-video xl:aspect-[21/9] bg-slate-300 w-full block p-4">Карта</div>
         </div>
 
       </div>
@@ -151,12 +151,5 @@ export default {
     width: 100%;
   }
   .logo_illustration__lines {}
-}
-
-.grid {
-  justify-content: stretch;
-  justify-items: stretch;
-  align-content: stretch;
-  align-items: stretch;
 }
 </style>

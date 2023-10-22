@@ -37,7 +37,7 @@
 
           <p class="mb-3 text-sm">Мы всегда находимся на рубеже передовых технологий и постоянного совершенствования в работе.</p>
 
-          <div class="map aspect-[4/3] bg-slate-300 w-full mt-9"></div>
+          <div class="map aspect-[4/3] bg-slate-300 w-full mt-9 p-4">Карта</div>
         </div>
 
         <div class="col-span-12 md:col-span-6 lg:col-span-6 py-4">

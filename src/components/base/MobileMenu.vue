@@ -3,7 +3,7 @@
   class="mobile-menu t-dark md:hidden"
   :class="{ 'mobile-menu_open': menuOpen }"
   >
-    <nav class="mobile-menu__nav bg-white p-4 flex flex-col">
+    <nav class="mobile-menu__nav bg-white p-4 flex flex-col text-lg">
       <ul>
         <li
         v-for="link in nav"
@@ -106,7 +106,6 @@ export default {
     right: 0;
     bottom: 0;
     background-color: rgba($color: #000000, $alpha: 0.5);
-    // backdrop-filter: blur(2px);
     z-index: 1001;
     cursor: pointer;
     transition: all 0.6s;
@@ -117,8 +116,8 @@ export default {
   &.mobile-menu_open {
     .mobile-menu__backdrop {
       background-color: rgba($color: #000000, $alpha: 0.5);
-      // backdrop-filter: blur(0);
       pointer-events: all;
+      backdrop-filter: blur(2px);
     }
 
     .mobile-menu__nav {
@@ -132,7 +131,7 @@ export default {
     .mobile-menu__backdrop {
       background-color: rgba($color: #000000, $alpha: 0);
       pointer-events: none;
-      // backdrop-filter: blur(0);
+      backdrop-filter: blur(0);
     }
 
     .mobile-menu__nav {
@@ -153,6 +152,7 @@ export default {
   &::before,
   &::after {
     content: '';
+    transition: all 0.33s;
   }
 
   &::before {
@@ -161,6 +161,10 @@ export default {
 
   &::after {
     transform: translateY(0.5em);
+  }
+
+  i {
+    transition: all 0.66s;
   }
 
   &::before,
@@ -173,7 +177,6 @@ export default {
     border-top: 0.1em solid $t-dark;;
     border-bottom: 0.1em solid $t-dark;;
     border-radius: 4px;
-    transition: all 0.6s;
     opacity: 1;
   }
 
@@ -181,7 +184,7 @@ export default {
 
   &.menu-toggler_open {
     i {
-      transform: translateX(-100%) scale(150%, 0);
+      transform: translateX(-75%) scale(125%, 50%);
       opacity: 0;
     }
 

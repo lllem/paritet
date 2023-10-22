@@ -15,6 +15,12 @@ import TopNav from '@/components/base/TopNav.vue';
 import FooterBlock from '@/components/base/FooterBlock.vue';
 
 export default {
+  data() {
+    return {
+      test: false,
+    }
+  },
+
   components: {
     TopNav,
     FooterBlock,
