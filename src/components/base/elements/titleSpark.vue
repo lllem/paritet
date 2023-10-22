@@ -6,6 +6,9 @@
     'text-white': white,
     't-dark': !white,
   }"
+  data-aos="fade-left"
+  data-aos-delay="100"
+  data-aos-duration="800"
   >
     <slot/>
   </component>
@@ -15,8 +18,8 @@
 export default {
   props: {
     h: {
-      type: Number,
-      default: 1,
+      type: [Number, String],
+      default: 2,
     },
     white: Boolean,
   },

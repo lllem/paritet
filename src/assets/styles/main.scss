@@ -3,6 +3,7 @@
 @font-face {
   font-family: 'Segoe UI';
   src: url('@/assets/fonts/SegoeUIVF.ttf');
+  font-display: swap;
 }
 
 html, body {
@@ -10,6 +11,7 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.25;
   color: #1b324a;
+  // width: 100%;
 }
 
 .bg-dark {

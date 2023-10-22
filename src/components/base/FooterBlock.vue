@@ -8,7 +8,12 @@
         title="ПАРИТЕТ"
         class="footer__logo px-6 py-4"
         >
-          <img src="/assets/img/logo/logo_dark.svg" alt="ПАРИТЕТ" class="mx-auto">
+          <img
+          src="/assets/img/logo/logo_dark.svg"
+          alt="ПАРИТЕТ"
+          class="mx-auto"
+          data-aos="zoom-out" data-aos-duration="1000"
+          >
         </router-link>
       </div>
 

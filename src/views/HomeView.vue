@@ -3,16 +3,32 @@
     <div class="container max-w-screen-xl mx-auto px-4 grid lg:grid-cols-2 gap-x-6 py-5 items-center">
 
       <div class="logo_illustration">
-        <img class="logo_illustration__logo py-4" src="/assets/img/pages-illustrations/main/logo_illustration__logo.svg" alt="">
-        <img class="logo_illustration__lines py-4" src="/assets/img/pages-illustrations/main/logo_illustration__lines.svg" alt="">
+        <img
+        class="logo_illustration__logo py-4"
+        src="/assets/img/pages-illustrations/main/logo_illustration__logo.svg"
+        alt="ПАРИТЕТ логотип"
+        data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1500"
+        >
+        <img
+        class="logo_illustration__lines py-4"
+        src="/assets/img/pages-illustrations/main/logo_illustration__lines.svg"
+        alt=""
+        data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500"
+        >
       </div>
 
       <div class="py-4">
         <titleSpark h="1" white class="text-2xl mb-4">ПОСТАВКА РАДИОЭЛЕКТРОННЫХ КОМПОНЕНТОВ И&nbsp;ОБОРУДОВАНИЯ</titleSpark>
 
-        <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        <p
+        class="mb-3 text-sm"
+        data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"
+        >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
-        <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <p
+        class="mb-3 text-sm"
+        data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
+        >Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </section>
@@ -22,9 +38,13 @@
 
       <titleSpark h="2" class="text-4xl mb-4">О нас</titleSpark>
 
-      <div class="grid grid-cols-12 md:gap-6 lg:gap-12">
+      <div class="grid grid-cols-12 md:gap-6 lg:gap-12"
+      >
 
-        <div class="col-span-12 md:col-span-6 lg:col-span-6">
+        <div
+        class="col-span-12 md:col-span-6 lg:col-span-6"
+        data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+        >
           <p class="mb-3 text-sm">Компания <span class="font-bold"><span class="font-bold">«Паритет»</span></span> — надежный поставщик оборудования, КИПиА и  электронных компонентов отечественного и иностранного производства для предприятий промышленности всех областей.</p>
 
           <p class="mb-3 text-sm font-bold">Система менеджмента качества в компании внедрена и функционирует в соответствии с требованиями ГОСТ ISO 9001-2015 и других руководящих документов.</p>
@@ -37,16 +57,26 @@
 
           <p class="mb-3 text-sm">Мы всегда находимся на рубеже передовых технологий и постоянного совершенствования в работе.</p>
 
-          <div class="map aspect-[4/3] bg-slate-300 w-full mt-9 p-4">Карта</div>
+          <div
+          class="map aspect-[4/3] bg-slate-300 w-full mt-9 p-4"
+          data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+          >Карта</div>
         </div>
 
         <div class="col-span-12 md:col-span-6 lg:col-span-6 py-4">
-          <img src="/assets/img/pages-illustrations/main/image_2023-10-19_12-29-56.webp" alt="">
+          <img
+          src="/assets/img/pages-illustrations/main/image_2023-10-19_12-29-56.webp"
+          alt=""
+          data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500"
+          >
         </div>
 
       </div>
 
-      <div class="my-10 text-center">
+      <div
+      class="my-10 text-center"
+      data-aos="fade-up" data-aos-delay="600" data-aos-duration="1500"
+      >
         <pBtn href="#" class="mx-auto">Перейти в магазин</pBtn>
       </div>
 

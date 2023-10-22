@@ -13,22 +13,26 @@
         to="/"
         title="ПАРИТЕТ"
         class="top-nav__logo"
+        data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000"
         >
           <img src="/assets/img/logo/logo_line.svg" alt="ПАРИТЕТ">
         </router-link>
       </div>
 
-      <ul class="subnav hidden md:inline-flex justify-self-end text-slate-400 gap-2 col-span-8">
+      <ul
+      class="subnav hidden md:inline-flex justify-self-end text-slate-400 gap-2 col-span-8"
+      data-aos="fade-left" data-aos-delay="600" data-aos-duration="1400"
+      >
         <li><a href="#">Поддержка</a></li> |
         <li><a href="#">FAQ</a></li> |
         <li><a href="#">Карта сайта</a></li> |
         <li><a href="#">Помощь</a></li>
       </ul>
 
-      <div class="contacts inline-flex md:justify-self-end gap-x-8 gap-y-3
-      col-span-9 md:col-span-8
-      flex-col md:flex-row
-      ">
+      <div
+      class="contacts inline-flex md:justify-self-end gap-x-8 gap-y-3 col-span-9 md:col-span-8 flex-col md:flex-row"
+      data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000"
+      >
         <a
         class="inline-block font-bold whitespace-nowrap"
         href="tel:+7 495-147-25-36"
@@ -39,7 +43,10 @@
         ><EnvelopeIcon class="icon"/> paritet@mail.com</a>
       </div>
 
-      <nav class="hidden md:flex justify-between text-slate-600 col-span-12 lg:col-span-8 gap-x-8">
+      <nav
+      class="hidden md:flex justify-between text-slate-600 col-span-12 lg:col-span-8 gap-x-8"
+      data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"
+      >
         <router-link
         v-for="link in nav"
         :to="link.link"

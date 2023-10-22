@@ -7,9 +7,10 @@
       <div class="grid grid-cols-12 md:gap-x-12 gap-y-8 border-bottom">
 
         <div
-        v-for="article in news"
+        v-for="(article, i) in news"
         :key="article"
         class="news-block__item col-span-12 lg:col-span-4 lg:py-4"
+        data-aos="fade-up" :data-aos-delay="300 + 200*i" data-aos-duration="1500"
         >
           <p class="text-sm">{{ article }}</p>
         </div>

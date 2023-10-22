@@ -13,6 +13,7 @@
 <script>
 import TopNav from '@/components/base/TopNav.vue';
 import FooterBlock from '@/components/base/FooterBlock.vue';
+import AOS from 'aos'
 
 export default {
   data() {
@@ -25,6 +26,10 @@ export default {
     TopNav,
     FooterBlock,
   },
+
+  mounted() {
+    AOS.init()
+  },
 }
 </script>
 
@@ -36,6 +41,8 @@ export default {
 
   main {
     flex-grow: 1;
+    max-width: 100%;
+    overflow: hidden;
   }
 }
 </style>

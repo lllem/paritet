@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import '@/assets/tailwind.css'
 import '@/assets/styles/main.scss'
+import 'aos/dist/aos.css'
 
 // global components
 import pBtn from '@/components/base/elements/pBtn.vue'
